@@ -1,0 +1,53 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.answer-page-container {
+	background-image: linear-gradient(135deg, rgba(202,130,248,0.4) 0%, rgba(202,130,248,0.4) 50%, rgba(161,217,255,0.4) 50%);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	h1 {
+		margin-bottom: 50px;
+		border:
+	}
+}
+
+.ask-page-container {
+	background-image: linear-gradient(135deg, rgba(161,217,255,0.4) 0%, rgba(161,217,255,0.4) 50%, rgba(202,130,248,0.4) 50%);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	h1 {
+		margin-bottom: 50px;
+	}
+	#question {
+		line-height: 30px;
+		width: 300px;
+		font-size: 16px;
+	}
+	#btn {
+		font-size: 20px;
+		padding: 5px 10px;
+		margin: 0 15px;
+	}
+	form {
+		display: flex;
+		align-items: center;
+	}
+}
+
